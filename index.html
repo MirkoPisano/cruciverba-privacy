@@ -11,7 +11,10 @@
       color: #111827;
       background: #eef1f8;
     }
-    body { margin: 0; padding: 32px 18px; }
+    body {
+      margin: 0;
+      padding: 32px 18px;
+    }
     main {
       max-width: 760px;
       margin: 0 auto;
@@ -21,10 +24,22 @@
       border-radius: 22px;
       box-shadow: 0 16px 45px rgb(30 58 100 / 10%);
     }
-    h1 { margin-top: 0; color: #2755c8; }
-    h2 { margin-top: 28px; font-size: 1.1rem; }
-    p, li { color: #536174; line-height: 1.6; }
-    .updated { color: #8494aa; font-size: .9rem; }
+    h1 {
+      margin-top: 0;
+      color: #2755c8;
+    }
+    h2 {
+      margin-top: 28px;
+      font-size: 1.1rem;
+    }
+    p, li {
+      color: #536174;
+      line-height: 1.6;
+    }
+    .updated {
+      color: #8494aa;
+      font-size: .9rem;
+    }
     @media (prefers-color-scheme: dark) {
       :root { color: #eaf0fa; background: #182130; }
       main { background: #202a3a; border-color: #334055; }
@@ -36,7 +51,7 @@
 <body>
 <main>
   <h1>Privacy Policy - Cruciverba Italiano</h1>
-  <p class="updated">Ultimo aggiornamento: 18 giugno 2026</p>
+  <p class="updated">Ultimo aggiornamento: 23 giugno 2026</p>
 
   <h2>Titolare e contatti</h2>
   <p>
@@ -46,12 +61,18 @@
     a <a href="mailto:mirko_12@hotmail.it">mirko_12@hotmail.it</a>.
   </p>
 
-  <h2>Dati personali</h2>
+  <h2>Dati personali e dati tecnici</h2>
   <p>
-    Questa versione dell'app non raccoglie, non trasmette e non condivide dati
-    personali o sensibili. Non sono richiesti nome, indirizzo email, numero di
-    telefono, posizione, contatti, foto o identificativi del dispositivo.
+    L'app non richiede nome, indirizzo email, numero di telefono, contatti o
+    foto. Per mostrare e misurare gli annunci, Google Mobile Ads può raccogliere
+    e condividere automaticamente i seguenti dati:
   </p>
+  <ul>
+    <li>indirizzo IP, utilizzabile per stimare una posizione approssimativa;</li>
+    <li>interazioni con il prodotto, come avvii, tocchi e video visualizzati;</li>
+    <li>informazioni diagnostiche e sulle prestazioni;</li>
+    <li>identificativi del dispositivo e dell'account, incluso l'ID pubblicità Android quando disponibile.</li>
+  </ul>
 
   <h2>Dati salvati sul dispositivo</h2>
   <p>
@@ -60,10 +81,14 @@
     partite. Non vengono inviati allo sviluppatore o a terze parti.
   </p>
 
-  <h2>Pubblicità e acquisti</h2>
+  <h2>Pubblicità, consenso e acquisti</h2>
   <p>
-    La versione attuale non contiene pubblicità, acquisti in-app, reti
-    pubblicitarie o strumenti di tracciamento.
+    L'app usa Google AdMob per mostrare un banner nella schermata principale e
+    video premiati facoltativi per ottenere un aiuto. Dove richiesto, Google
+    User Messaging Platform (UMP) presenta una richiesta di consenso prima del
+    caricamento degli annunci. Le preferenze possono essere modificate dalle
+    Impostazioni dell'app quando questa opzione è richiesta nella regione
+    dell'utente. L'app non contiene acquisti in-app.
   </p>
 
   <h2>Conservazione e cancellazione</h2>
@@ -80,9 +105,9 @@
 
   <h2>Sicurezza</h2>
   <p>
-    I dati sono conservati nell'area locale assegnata all'app dal sistema
-    operativo. Non avviene alcun trasferimento di dati personali tramite
-    Internet.
+    I dati locali sono conservati nell'area assegnata all'app dal sistema
+    operativo. Google dichiara che i dati raccolti dal Mobile Ads SDK sono
+    cifrati in transito mediante TLS.
   </p>
 
   <h2>Minori</h2>
@@ -91,11 +116,26 @@
     e non è progettato specificamente per bambini sotto i 13 anni.
   </p>
 
+  <h2>Fonti e licenze dei contenuti</h2>
+  <p>
+    Parte delle definizioni deriva dall'edizione italiana di Wiktionary,
+    distribuita con licenze CC BY-SA 4.0 e GFDL ed elaborata tramite
+    Kaikki.org. Altri dati fattuali provengono da Wikidata (CC0) e da fonti
+    ufficiali. Le definizioni di attualità sono formulate appositamente per
+    Cruciverba Italiano.
+  </p>
+
   <h2>Modifiche</h2>
   <p>
-    Questa policy sarà aggiornata prima di introdurre servizi che raccolgono
-    dati, pubblicità reale, analytics o acquisti tramite Google Play.
+    Questa policy sarà aggiornata quando cambieranno le funzioni dell'app, i
+    fornitori pubblicitari o le modalità di trattamento dei dati.
   </p>
+
+  <h2>Informazioni sui fornitori</h2>
+  <ul>
+    <li><a href="https://policies.google.com/privacy">Norme sulla privacy di Google</a></li>
+    <li><a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Dati raccolti dal Google Mobile Ads SDK</a></li>
+  </ul>
 </main>
 </body>
 </html>
